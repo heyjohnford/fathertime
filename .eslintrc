@@ -1,0 +1,40 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+
+    "rules": {
+        "quotes": [2, "single"],
+        "no-undef": 1,
+        "no-unused-expressions": 1,
+        "no-unused-vars": 1,
+        "no-debugger": 2,
+        "no-dupe-keys": 2,
+        "no-underscore-dangle": 0,
+        "camelcase": 1,
+        "no-eval": 2,
+        "strict": 0,
+        "semi": [2, "never"],
+        "mocha/no-exclusive-tests": 2
+    },
+
+    "ecmaFeatures": {
+        "modules": true
+    },
+
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+
+    "globals": {
+        "BROWSER": true
+    },
+
+    "plugins": ["mocha"]
+
+}

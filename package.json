@@ -1,6 +1,6 @@
 {
   "name": "fathertime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
   "author": "John Amiah Ford <johnamiahford@gmail.com>",
@@ -10,6 +10,10 @@
     "prepublish": "npm run build",
     "lint": "eslint .",
     "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnamiahford/fathertime.git"
   },
   "keywords": [
     "fathertime",
